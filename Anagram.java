@@ -9,7 +9,7 @@ class Anagram
         char[] c1=s2.toCharArray();
         char[] c2=s1.toCharArray();
         Arrays.sort(c1);    //Arrays sort 
-        Arrays.sort(c2);    
+        Arrays.sort(c2);    //Arrays sort
         if(Arrays.equals(c1,c2))
         {
             System.out.println("Anagram");
